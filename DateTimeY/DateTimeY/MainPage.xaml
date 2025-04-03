@@ -16,13 +16,14 @@
                    TextColor="LightGray" 
                    FontSize="20" 
                    Margin="0,10,0,5" 
+                   FontAttributes="Bold"
                    HorizontalTextAlignment="Center" />
         </chart:SfCartesianChart.Title>
 
         <chart:SfCartesianChart.XAxes>
             <chart:CategoryAxis ShowMajorGridLines="False">
                 <chart:CategoryAxis.LabelStyle>
-                    <chart:ChartAxisLabelStyle FontSize="20" TextColor="LightGray" />
+                    <chart:ChartAxisLabelStyle FontAttributes="Bold" TextColor="LightGray" />
                 </chart:CategoryAxis.LabelStyle>
             </chart:CategoryAxis>
         </chart:SfCartesianChart.XAxes>
@@ -30,8 +31,11 @@
         <chart:SfCartesianChart.YAxes>
             <chart:NumericalAxis LabelCreated="NumericalAxis_LabelCreated">
                 <chart:NumericalAxis.LabelStyle>
-                    <chart:ChartAxisLabelStyle FontSize="20" TextColor="LightGray" />
+                    <chart:ChartAxisLabelStyle FontAttributes="Bold" TextColor="LightGray" />
                 </chart:NumericalAxis.LabelStyle>
+                <chart:NumericalAxis.MajorGridLineStyle>
+                    <chart:ChartLineStyle Stroke="SlateGray" />
+                </chart:NumericalAxis.MajorGridLineStyle>
             </chart:NumericalAxis>
         </chart:SfCartesianChart.YAxes>
 
