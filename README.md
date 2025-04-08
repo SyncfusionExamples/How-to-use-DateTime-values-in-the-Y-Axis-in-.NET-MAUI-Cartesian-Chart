@@ -7,7 +7,7 @@ Since the Cartesian Chart does not natively support [DateTimeAxis](https://help.
 
 **Step 2:** Define the DataModel and convert the DateTime values into total minutes and store it in a separate property for using them in the numerical Y-Axis.
 
-**Step 3:** Declare an event handler for the [LabelCreated](https://help.syncfusion.com/cr/maui-toolkit/Syncfusion.Maui.Toolkit.Charts.ChartAxis.html) event of the numerical Y-Axis.
+**Step 3:** Declare an event handler for the [LabelCreated](https://help.syncfusion.com/cr/maui-toolkit/Syncfusion.Maui.Toolkit.Charts.ChartAxis.html#Syncfusion_Maui_Toolkit_Charts_ChartAxis_LabelCreated) event of the numerical Y-Axis.
 
 **Step 4:** Handle duration values and format the labels of the NumericalAxis within the LabelCreated event.
 
@@ -21,4 +21,4 @@ Since the Cartesian Chart does not natively support [DateTimeAxis](https://help.
 
 If you are facing a "Path too long" exception when building this example project, close Visual Studio and rename the repository to a shorter name before building the project.
 
-Refer to the KB article on [How to use DateTime values in the Y Axis in .NET MAUI Cartesian Chart](https://support.syncfusion.com/kb/article/19837/how-to-use-datetime-values-in-the-y-axis-in-net-maui-cartesian-chart) for better understanding along with relevant code snippets.
+Refer to the KB article on [how to use DateTime values in the Y Axis in .NET MAUI Cartesian Chart](https://support.syncfusion.com/kb/article/19837/how-to-use-datetime-values-in-the-y-axis-in-net-maui-cartesian-chart) for better understanding along with relevant code snippets.
