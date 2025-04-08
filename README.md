@@ -13,7 +13,7 @@ Since the Cartesian Chart does not natively support [DateTimeAxis](https://help.
 
 **Step 5:** Run the sample, the chart will be displayed with the DateTime values formatted on the Numerical Y-Axis labels as shown in the below output.
 
-![Output screenshot](https://github.com/user-attachments/assets/0ef206f2-0735-4f22-9fbd-aa7b90aa0baa)
+![Sample screenshot of chart displayed with the DateTime values in the y axis.](https://github.com/user-attachments/assets/ad0482b6-3037-404e-a1be-1f0d15177985)
 
 ## Troubleshooting
 
